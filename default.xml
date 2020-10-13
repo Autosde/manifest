@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<manifest>
+    <remote name="xiv-gerrit" fetch="ssh://xiv-gerrit.xiv.ibm.com:22122" revision="master" />
+    <remote name="github/ibm" fetch="https://github.com/IBM" revision="master" />
+    <remote name="github/autosde" fetch="https://github.com/Autosde" revision="master" />
+    <remote name="github/miq" fetch="https://github.com/manageiq" revision="master" />
+
+    <project name="manageiq"                   remote="github/autosde"  revision="master"           path="." />
+    <project name="manageiq-ui-classic"        remote="github/autosde"  revision="master"			path="plugins/manageiq-ui-classic"/>
+    <project name="manageiq-decorators"        remote="github/autosde"  revision="master"			path="plugins/manageiq-decorators"/>
+    <project name="manageiq-schema"            remote="github/autosde"  revision="master"			path="plugins/manageiq-schema"/>
+    <project name="manageiq-api"               remote="github/autosde"  revision="master" 			path="plugins/manageiq-api"/>
+    <project name="manageiq-providers-autosde" remote="github/autosde"  revision="master"			path="plugins/manageiq-providers-autosde" />
+</manifest>
+
