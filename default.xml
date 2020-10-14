@@ -7,10 +7,9 @@
     <remote name="github/miq" fetch="https://github.com/manageiq" revision="master" />
 
     <project name="manageiq"                   remote="github/autosde"  revision="master"           path="." />
-    <project name="manageiq-ui-classic"        remote="github/autosde"  revision="master"			path="plugins/manageiq-ui-classic"/>
+    <project name="manageiq-ui-classic"        remote="github/autosde"  revision="PR_enabling_storage_service_selection_when_creating_cloud_volume"			path="plugins/manageiq-ui-classic"/>
     <project name="manageiq-decorators"        remote="github/autosde"  revision="master"			path="plugins/manageiq-decorators"/>
     <project name="manageiq-schema"            remote="github/autosde"  revision="master"			path="plugins/manageiq-schema"/>
     <project name="manageiq-api"               remote="github/autosde"  revision="master" 			path="plugins/manageiq-api"/>
-    <project name="manageiq-providers-autosde" remote="github/autosde"  revision="master"			path="plugins/manageiq-providers-autosde" />
+    <project name="manageiq-providers-autosde" remote="github/autosde"  revision="autosde_cloud_tenant"			path="plugins/manageiq-providers-autosde" />
 </manifest>
-
